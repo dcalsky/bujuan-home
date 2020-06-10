@@ -1,16 +1,22 @@
-main {
-  align-content: center;
+body {
+  margin: 0;
   box-sizing: border-box;
-  display: grid;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
-  hyphens: auto;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 5px;
+  border: 4px solid #0076ff;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
   line-height: 1.65;
   margin: 0 auto;
-  max-width: 680px;
-  min-height: 100vh;
-  padding: 72px 0;
   text-align: center;
+  min-width: 200px;
 }
 h1 {
   font-size: 45px;
@@ -21,16 +27,16 @@ h2 {
 p {
   font-size: 16px;
 }
-a {
+/* a {
   border-bottom: 1px solid white;
   color: #0076ff;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
-}
-a:hover {
+} */
+/* a:hover {
   border-bottom: 1px solid #0076ff;
-}
+} */
 code,
 pre {
   color: #d400ff;
@@ -40,5 +46,12 @@ pre {
 }
 code:before,
 code:after {
-  content: '\`';
+  content: "\`";
+}
+
+.icp {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
