@@ -15,9 +15,9 @@ function Index() {
   return (
     <main>
       <Helmet>
-        <title>云速科技</title>
+        <title>不卷科技</title>
       </Helmet>
-      <h1>云速科技</h1>
+      <h1>不卷科技</h1>
       <h2 style={{ color: "#1E88E5" }}>云产品的附魔台</h2>
       <p>
         联系我们:
@@ -27,7 +27,7 @@ function Index() {
         .
       </p>
       <p className="icp">
-        <a href="http://www.beian.miit.gov.cn/">沪ICP备20017108号-1</a>
+        <a href="http://www.beian.miit.gov.cn/"></a>
       </p>
     </main>
   );
