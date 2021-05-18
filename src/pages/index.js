@@ -27,7 +27,7 @@ function Index() {
         .
       </p>
       <p className="icp">
-        <a href="http://www.beian.miit.gov.cn/"></a>
+        <a href="http://www.beian.miit.gov.cn/">浙ICP备2021014940号-1</a>
       </p>
     </main>
   );
